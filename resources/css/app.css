@@ -1,0 +1,26 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Sesuaikan dengan desain Anda */
+  .header, .menu-items, .footer {
+    /* Gaya untuk masing-masing bagian */
+  }
+  
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Gaya untuk responsivitas */
+  @media (max-width: 768px) {
+    /* Gaya untuk layar kecil */
+    .menu-item {
+      flex-direction: column;
+    }
+  }
